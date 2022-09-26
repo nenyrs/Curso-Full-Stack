@@ -1,0 +1,13 @@
+p {
+    font-size: 20px;
+    font-weight: 700;
+    color: rgb(255, 73, 73);
+}
+
+.text {
+    color: red;
+}
+
+#text {
+    color: rgb(196, 6, 6);
+}

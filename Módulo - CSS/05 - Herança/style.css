@@ -1,0 +1,10 @@
+div {
+    border: solid 2px red;
+    border-radius: 25px;
+    padding: 15px;
+}
+
+div ul{
+    border: inherit;
+    padding: inherit;
+}

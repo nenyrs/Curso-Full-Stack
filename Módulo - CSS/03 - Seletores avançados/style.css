@@ -1,0 +1,23 @@
+/* Todo (strong) filho de um (p) */
+p > strong{
+    color: red;
+}
+
+/* Todo (h2) seguido de um (h1) */
+h1 + h2 {
+    color:brown;
+}
+
+a[href='/recibo'] {
+    color: orange;
+}
+
+/* número exato */
+li:nth-of-type(2) {
+    color: blueviolet;
+}
+
+/* número impar de listagem */
+li:nth-of-type(odd) {
+    color: blue;
+}

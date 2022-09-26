@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="ptbr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Especificidade</title>
+</head>
+<body>
+    <h1>Especificidade</h1>
+    <h2>É o que vai determinar qual estilo determinado elemento vai ter.</h2>
+    <div>
+        <p>Representação de um ELEMENTO</p>
+        <p class="text">Representação de uma CLASSE, mais importante que um elemento</p>
+        <p class="text" id="text">Representação de um ID, mais importante que um elemento ou uma classe.</p>
+        <p class="text" id="text" style="color: rgb(116, 0, 0);">Representação de um CSS INLINE, mais importante que um id, classe ou elemento. ( mas é considerada uma prática imprópria.)</p>
+    </div>
+    <h3>Resumindo inline>id>classe>elemento</h3>
+</body>
+</html>
