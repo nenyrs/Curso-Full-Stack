@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="./javascript.js"></script>
+    <title>Flexbox layout</title>
+</head>
+<body>
+    <header>
+        <button class="btn"><a href="./flex-basis.html">flex basis</a></button>
+        <button class="btn"><a href="./flex-grow.html">flex grow</a></button>
+        <button class="btn"><a href="./flex-shrink.html">flex shrink</a></button>
+        <button class="btn"><a href="./flex.html">flex</a></button>
+        <button class="btn"><a href="./order.html">order</a></button>
+        <button class="btn"><a href="./align-self.html">align self</a></button>
+    </header>
+    <section>
+        <div class="toggle">
+            <button onclick="myFunction()">Explicação</button>
+            <div id="myDIV" class="txt-content">
+                <h2>O flex-grow é uma forma que temos de aumentar o tamanho dos itens sem fazer com que eles quebrem de forma imediata, nós vamos colocar através de números, colocaremos 1.</h2>
+                <h2>Podemos ver que todos os itens ficaram com o mesmo tamanho, preenchendo todo o espaço disponível que eles tem. A junção dele e do flex-basis é importante para ativar o wrap. Nós colocando aqui em inspecionar e diminuindo a tela, vemos que quando chegar o item em 200px, eles vão quebrar e vai descer, sem o basis, isso não acontece.</h2>
+                <h2>Nós também podemos fazer o aumento de um item de forma individual usando o flex-grow.</h2>
+                <h2>Conseguimos ver que o item 1 agora está muito maior que os outros, fizemos com, que de forma individual, ele crescece. Nós vamos deixar assim para prosseguir.</h2>
+                </div>            
+            </div>
+        </div>            
+    <div class="container">
+        <div class="item-grow item1">
+            <p>Item 1</p>
+        </div>
+        <div class="item-grow item2">
+            <p>Item 2</p>
+        </div>
+        <div class="item-grow item3">
+            <p>Item 3</p>
+        </div>
+    </div>
+    </section>
+    <div class="footer">
+        <p>Aluno: Mateus Alves Lopes</p>
+        <a href="https://onebitcode.notion.site/4-Manipulando-flex-itens-2d75e01f934248769a9d1b4724b021bf">Material de estudo</a>
+    </div>
+</body>
+</html>

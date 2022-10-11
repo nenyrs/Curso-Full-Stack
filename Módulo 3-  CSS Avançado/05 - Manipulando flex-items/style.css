@@ -1,0 +1,179 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.toggle {
+    padding-top: 27px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    height: 73vh;
+    display: flex;
+    gap: 5px 15px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.txt-content {
+    height: 10vh;
+    padding: 15px;
+}
+
+.txt-content h2 {
+    font-size: 20px;
+    font-weight: 400;
+    text-align: left;
+}
+
+.item {
+    height: 200px;
+    border: 2px solid black;
+    background-color: white;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 200px;
+}
+
+.item-grow {
+    height: 200px;
+    border: 2px solid black;
+    background-color: white;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 200px;
+    flex-grow: 1;
+  }
+
+.item-grow .item1 {
+    flex-grow: 2;
+}
+
+#flex {
+    height: 63vh;
+}
+
+.container-shrink {
+    min-height: 73vh;
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.item-shrink {
+    width: 100%;
+    border: 2px solid black;
+    background-color: white;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item2-flex {
+    flex: 1 0 auto;
+}
+
+#flex {
+    padding-top: 100px;
+}
+
+.item1-order {
+    order: 2;
+}
+
+.item2-order {
+    flex: 1 0 auto;
+    order: 3;
+}
+
+.item3-order {
+    order: 1;
+}
+
+.container-self {
+    min-height: 73vh;
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+  }
+  .item1-self {
+    order: 2;
+    align-self: end;
+  }
+  .item2-self {
+    order: 3;
+  }
+  .item3-self {
+    order: 1;
+  }
+
+
+header {
+    height: 10vh;
+    background-color: black;
+    width: 100%;
+    display: flex;
+    flex-direction: rox;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+button {
+    border-radius: 12px;
+    padding: 10px 15px;
+    min-width: 150px;
+    background-color: aquamarine;    
+}
+
+.btn a {
+    font-size: 18px;
+    text-decoration: none;    
+    color: black;
+    transition: 0.4s;
+}
+
+.btn a:hover {  
+    color: blue;
+    font-weight: 700;
+}
+
+.footer {
+    background-color: black;
+    height: 10vh;
+    width: 100%;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+a {
+    transition: 0.4s;
+    color: white;
+}
+
+a:hover {
+    color: aquamarine;
+    font-weight: 700;
+}
+
+.footer p {
+    font-size: 18px;
+    color: aquamarine;
+}

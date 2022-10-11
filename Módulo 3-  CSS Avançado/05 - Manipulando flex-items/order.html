@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="./javascript.js"></script>
+    <title>Flexbox layout</title>
+</head>
+<body>
+    <header>
+        <button class="btn"><a href="./flex-basis.html">flex basis</a></button>
+        <button class="btn"><a href="./flex-grow.html">flex grow</a></button>
+        <button class="btn"><a href="./flex-shrink.html">flex shrink</a></button>
+        <button class="btn"><a href="./flex.html">flex</a></button>
+        <button class="btn"><a href="./order.html">order</a></button>
+        <button class="btn"><a href="./align-self.html">align self</a></button>        
+    </header>
+    <section>
+        <div class="toggle">
+            <button onclick="myFunction()">Explicação</button>
+            <div id="myDIV" class="txt-content">
+                <h2>O flex basis é o tamanho do item. Nós vamos tirar o width e colocar o flex-basis. A diferença entre eles é mínima, nós vamos utilizar o basis por ser algo mais “correto”, acaba sendo uma boa prática utilizar o elemento do flex, já que estamos usando o flex.</h2>
+                <h2>Podemos ver que ficou igual, normalmente o nosso flex-basis é usado junto as outras duas funcionalidades que vamos ver logo logo. Podemos também usar % no basis, mas vamos deixar como esta para prosseguir.</h2>
+                </div>            
+            </div>
+        </div>            
+    <div class="container">
+        <div class="item item1-order">
+            <p>Item 1</p>
+        </div>
+        <div class="item item2-order">
+            <p>Item 2</p>
+        </div>
+        <div class="item item3-order">
+            <p>Item 3</p>
+        </div>
+    </div>
+    </section>
+    <div class="footer">
+        <p>Aluno: Mateus Alves Lopes</p>
+        <a href="https://onebitcode.notion.site/4-Manipulando-flex-itens-2d75e01f934248769a9d1b4724b021bf">Material de estudo</a>
+    </div>
+</body>
+</html>
