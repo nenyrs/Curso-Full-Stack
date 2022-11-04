@@ -1,0 +1,23 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.container {
+    min-height: 100vh;
+    background-color: blanchedalmond;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* grid-template-columns: 25% 50% 25%; */
+    /* grid-template-columns: 1fr 2fr 1fr; */
+    gap: 10px 15px;
+    /* grid-template-rows: repeat(3, 1fr); */
+    grid-auto-rows: minmax(210px, 100%);
+}
+
+.item {
+    font-size: 30px;
+    background-color: white;
+    border: 2px solid black;
+}
